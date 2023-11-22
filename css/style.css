@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@500&family=Cabin:wght@500&family=Josefin+Sans:ital,wght@1,300&family=Nanum+Gothic:wght@400;700;800&family=Noto+Serif&family=Teko:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@500&family=Cabin:wght@500&family=Josefin+Sans:ital,wght@1,300&family=Nanum+Gothic:wght@400;700;800&family=Noto+Serif&family=Teko:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@500&family=Cabin:wght@500&family=Josefin+Sans:ital,wght@1,300&family=Nanum+Gothic:wght@400;700;800&family=Noto+Serif&family=Teko:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: white;
+    /* border: 2px solid black; */
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+
+}
+
+/* @media screen and (max-width: 800px) {
+    header {
+      width: 100%; 
+      border: 2px solid black;
+    }
+
+    nav {
+        display: flex;
+    
+    }
+    
+    nav ul {
+    
+        display: flex;
+        height: 75px;
+        text-align: center;
+        align-items: center;
+        padding: 0 7em;
+    }
+    
+    nav ul li {
+        list-style: none;
+        padding: 0 0px 0 0;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        padding: 0 0px;
+        font-family: 'Baloo Da 2', cursive;
+        color: #5f88a3;
+    }
+    
+    nav ul li a:hover {
+        color: #5f88a3;
+        font-weight: bold;
+    }
+    
+    
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo img {
+        margin-left: 19px;
+        cursor: pointer;
+    }
+  } */
+
+nav {
+    display: flex;
+
+}
+
+nav ul {
+
+    display: flex;
+    height: 75px;
+    text-align: center;
+    align-items: center;
+    padding: 0 7em;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 20px 0 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 0 19px;
+    font-family: 'Baloo Da 2', cursive;
+    color: #5f88a3;
+}
+
+nav ul li a:hover {
+    color: #5f88a3;
+    font-weight: bold;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin-left: 119px;
+    cursor: pointer;
+}
+
+.btn {
+
+    display: flex;
+    align-items: center;
+}
+
+.btn button {
+    font-family: 'Baloo Da 2', cursive;
+    /* background-color: red; */
+    height: 45px;
+    width: 137px;
+    border-radius: 38px;
+    cursor: pointer;
+}
+
+.container {
+    min-height: calc(100vh - 75px - 335px);
+    /* border: 2px solid yellow; */
+}
+
+.box {
+    /* border: 2px solid red; */
+    /* height: 18rem; */
+    background-color: #1a5ca3;
+    padding: 1px;
+    /* position: sticky;
+    top: 0px; */
+
+    /* New */
+    height: 35rem;
+}
+
+.box img {
+    /* position: absolute;
+    right: 0;
+    height: 18rem; */
+
+/* after new setting */
+position: absolute;
+right: 0;
+height: 26rem;
+
+margin-top: 145px;
+}
+
+.banner {
+    height: 17rem;
+    margin: 137px 0px 0px 100px;
+    width: 474px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+}
+
+.banner h1 {
+    color: white;
+    font-size: 40px;
+}
+
+.banner p {
+    color: #47a0ff;
+    font-size: 23px;
+    font-weight: bold;
+    margin: 5px 0 17px 0;
+}
+
+#bttn {
+    height: 53px;
+    width: 429px;
+    background-color: green;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.bekar {
+    /* border: 2px solid black; */
+    height: 34px;
+    background-color: #f2d7d7;
+    padding: 1px;
+}
+
+.bekar p {
+    color: #1a5ca3;
+    margin: 6px;
+}
+
+.coupan {
+    /* border: 2px solid black; */
+    display: flex;
+    height: 381px;
+    justify-content: center;
+}
+
+.cou {
+    display: flex;
+    align-items: center;
+    height: 325px;
+}
+
+.offer {
+    display: inline-block;
+    height: 50px;
+    width: 300px;
+    margin-top: 19px;
+    margin-left: 40px;
+}
+
+/* .cou h2{
+    display: flex;
+    margin-top: 5px;
+} */
+.pho {
+    width: 30rem;
+    /* margin-top: -40px; */
+}
+
+.pho img {
+    /* height: 300px;
+    margin: 35px 0 0 39px; */
+    height: 300px;
+    margin: 35px 0 0 39px;
+    width: 443px;
+}
+
+.content-h3 {
+    font-family: 'Baloo Da 2', cursive;
+    font-size: 42px;
+    color: #1a5ca3;
+}
+
+.content-p {
+    font-family: 'Baloo Da 2', cursive;
+    font-size: 25px;
+}
+
+.ppp {
+    text-align: center;
+    font-size: 27px;
+    font-family: 'Baloo Da 2', cursive;
+    color: #708aa5;
+}
+
+.exp {
+    text-align: center;
+    font-size: 27px;
+    font-family: 'Baloo Da 2', cursive;
+    color: #708aa5;
+}
+
+.dbba {
+    /* border: 2px solid black; */
+    display: flex;
+}
+
+.db {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 67px;
+    padding: 19px 10px;
+    border: 1px dashed black;
+    cursor: pointer;
+
+}
+
+.db h3 {
+    font-size: 27px;
+    font-family: 'Baloo Da 2', cursive;
+    color: #708aa5;
+}
+
+.db p {
+    font-size: 17px;
+    font-family: 'Baloo Da 2', cursive;
+    color: #708aa5;
+    text-align: center;
+}
+
+.di img {
+    height: 94px;
+}
+
+.laa {
+    color: red;
+    height: 37px;
+    width: 135px;
+    margin-top: 16px;
+    border-radius: 56px;
+}
+
+.laa:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.mob {
+    height: 600px;
+display: flex;
+margin-top: 100px;
+}
+
+.and {}
+
+.and img {
+    height: 600px;
+    width: 54rem;
+}
+ .tet{
+    padding: 0 0 0 66px;
+    margin-top: 106px;
+    color: #59688c;
+ }
+ .tet p{
+    font-size: 39px;
+    color: #59688c;
+    margin-top: 51px;
+ }
+
+.tet h1 {
+    font-size: 55px;
+}
+
+footer {
+    height: 335px;
+    background-color: #222e3a;
+    color: white;
+    display: flex;
+}
+
+.menu {
+
+    display: inline-block;
+    margin: 13px 59px;
+}
+
+.menu ul li {
+    padding: 8px 0px;
+}
+
+.comp ul li {
+    padding: 8px 0px;
+}
+
+.comp {
+    display: inline-block;
+    margin: 13px 59px;
+}
+
+.restron {
+    display: inline-block;
+    margin: 13px 59px;
+}
+
+.restron ul li {
+    padding: 8px 0px;
+}
+
+.about {
+    display: inline-block;
+    margin: 13px 59px;
+}
+
+.about ul li {
+    padding: 8px 0px;
+}
+
+.legal ul li {
+    padding: 8px 0px;
+}
+
+.legal {
+    display: inline-block;
+    margin: 13px 59px;
+}
+
+.item {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 23px;
+}
+
+.copyri {
+    display: flex;
+    justify-content: center;
+    background-color: #222e3a;
+    color: white;
+    font-size: 21px;
+}
